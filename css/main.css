@@ -591,13 +591,6 @@ a:hover>span.site-name{
 .luego {
     padding: 10px;
 }
-.container-1 {
-    display: grid;
-}
-.row-1 .col-lg-10 {
-    justify-content: right;
-}
-
 .header-page .inner-content.dribble-header {
     height: 220px;
     background-color: #909090;
