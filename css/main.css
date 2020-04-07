@@ -463,11 +463,10 @@ ul.sublist {
     float: right;
 }
 .nav-sama {
-    float: right;
     padding-top: 35px;
 }
 .nav-sama a {
-    padding-top: 10px;
+    /*padding-top: 10px;*/
     padding-left: 25px;
 }
 a>span.site-name{
