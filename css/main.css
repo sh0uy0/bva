@@ -588,9 +588,16 @@ a:hover>span.site-name{
     margin-top: 20px;
     margin-left: 20px;
 }
-/*.luego {
+.luego {
     padding: 10px;
-}*/
+}
+.container-1 {
+    display: grid;
+}
+.row-1 .col-lg-10 {
+    justify-content: right;
+}
+
 .header-page .inner-content.dribble-header {
     height: 220px;
     background-color: #909090;
