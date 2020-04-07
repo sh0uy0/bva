@@ -459,10 +459,8 @@ ul.sublist {
 .logo {
     float: left;
 }
-.col-lg-10 {
-    float: right;
-}
 .nav-sama {
+    float: right;
     padding-top: 35px;
 }
 .nav-sama a {
