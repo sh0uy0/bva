@@ -458,7 +458,6 @@ ul.sublist {
 }
 .logo {
     float: left;
-    line-height: 100px;
 }
 .col-lg-9 {
     float: right;
@@ -470,8 +469,8 @@ ul.sublist {
 }
 
 .nav-sama a {
-    padding-top: 20px;
-    padding-left: 15px;
+    padding-top: 10px;
+    padding-left: 25px;
 }
 
 a>span.site-name{
