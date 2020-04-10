@@ -339,8 +339,6 @@ ul.sublist {
     font-size: 48px;
 }
 
-
-
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -499,7 +497,7 @@ nav ul li {
     float: right;
 }
 
-.nav-sama {
+/*.nav-sama {
     float: right;
     padding-top: 35px;
 }
@@ -507,7 +505,7 @@ nav ul li {
 .nav-sama a {
     padding-top: 20px;
     padding-left: 25px;
-}
+}*/
 /*Added special styles*/
 
 a>span.site-name{
