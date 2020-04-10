@@ -44,9 +44,6 @@
     font-weight: normal;
     font-style: normal;
 }
-* {
-    box-sizing: border-box;
-}
 html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -458,15 +455,61 @@ ul.sublist {
 }
 .logo {
     float: left;
+    line-height: 100px;
 }
+
+/*Added special styles*/
+/* .container {
+    float: right;
+}*/
+.hoverable {
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+  }
+  
+  .hoverable:hover {
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+.darken-2 {
+    background-color: #616161;
+}
+nav .brand-logo {
+    position: absolute;
+    display: inline-block;
+    padding: 0;
+    height: 250px;
+  }
+.container span.brand-logo{
+    margin-bottom: 5px;
+}
+nav ul li {
+    display: inline-block;
+    padding: 20px 0 0 20px;
+    }
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.col-lg-9 {
+    float: right;
+}
+
 .nav-sama {
     float: right;
     padding-top: 35px;
 }
+
 .nav-sama a {
-    /*padding-top: 10px;*/
+    padding-top: 20px;
     padding-left: 25px;
 }
+/*Added special styles*/
+
 a>span.site-name{
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -581,9 +624,7 @@ a:hover>span.site-name{
     margin-top: 20px;
     margin-left: 20px;
 }
-.luego {
-    padding: 10px;
-}
+
 .header-page .inner-content.dribble-header {
     height: 220px;
     background-color: #909090;
