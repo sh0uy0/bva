@@ -32,8 +32,8 @@
 }
 
 .tabs-style-bar nav ul li.tab-current a {
-	background: #2CC185;
-	color: #fff;
+	background: #e3e6e5;
+	color: #fff; 
 }
 
 /*****************************/
@@ -491,7 +491,7 @@
 }
 
 .tabs-style-circle nav li.tab-current a {
-	color: #2CC185;
+	color: rgb(181, 185, 183);
 }
 
 .tabs-style-circle nav li.tab-current a span {
@@ -746,7 +746,7 @@ span.tabs-title{
 	z-index: -1;
 	width: 100%;
 	height: 100%;
-	background-color: #70deb9;
+	background-color: #e3e6e5;
 	content: '';
 	-webkit-transition: -webkit-transform 0.3s, background-color 0.3s;
 	transition: transform 0.3s, background-color 0.3s;
@@ -759,13 +759,13 @@ span.tabs-title{
 }
 
 .tabs-style-flip nav li.tab-current a::after {
-	background-color: #70deb9;
+	background-color: #e3e6e5;
 	-webkit-transform: perspective(900px) rotate3d(1,0,0,0deg);
 	transform: perspective(900px) rotate3d(1,0,0,0deg);
 }
 
 .tabs-style-flip .content-wrap {
-	background: #70deb9;
+	background: #e3e6e5;
 	float: left;
 	padding: 6px;
 }
@@ -889,7 +889,7 @@ span.tabs-title{
 
 .tabs-style-tzoid nav ul li.tab-current a,
 .tabs-style-tzoid nav ul li.tab-current a:hover {
-	color: #2CC185;
+	color: #e3e6e5;
 }
 
 .tabs-style-tzoid nav ul li a span {
